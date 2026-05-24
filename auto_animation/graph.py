@@ -1,5 +1,5 @@
 from turtle import*
-bgcolor('gray')
+bgcolor('green')
 right(90)
 pos = [(-40,0), (40,0)]
 for x,y in pos:
