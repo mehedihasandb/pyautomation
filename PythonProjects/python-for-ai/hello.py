@@ -7,6 +7,19 @@
 # print (age >= 21)
 # print (age <= 22)
 
+age = 18
+can_vote = age >= 18
+
+#Boolean values Done
+
+#Operators
+
+age = 25
+job =  True
+
+can_marry = age >= 20 and job 
+print(can_marry)  # True
+
 first_name = "John"
 last_name = "Doe"
 
