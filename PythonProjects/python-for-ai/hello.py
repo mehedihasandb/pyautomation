@@ -72,6 +72,83 @@ print (text.find("is"))  # 7
 
 print(text.replace("Python", "JavaScript"))
 
+#If statements
+
+temperature = 18
+
+if temperature > 10:
+    print("It's a warm day.")
+elif temperature > 20:
+    print("It's a cold day.")
+else:
+    print("It's a good Weather day.")
+
+
+score = 50
+
+if score >= 90:
+    print("A - Excellent!")
+elif score >= 80:
+    print("B - Good job!")
+elif score >= 70:
+    print("C - Keep it up!")
+else:
+    print("F - Need improvement")
+
+agee = 20
+need_id = True
+weekend = True
+holiday = False
+sun = False
+
+if agee >= 18 and need_id:
+    print("you can do it")
+
+if weekend or holiday:
+    print ("at home and enjoy")
+
+if not sun:
+    print("go outside")
+
+has_license = True
+age = 10
+
+if has_license:
+    if age >= 18:
+        print("Enter Room")
+    else:
+        print("need supervise")
+else:
+    print("I don't know")
+
+#for loops
+
+for i in range(1, 15):
+    print(i)
+
+name = "PYthon"
+
+for i in name:
+    print(i)
+
+names = ["Raw", "ISI", "CIA", "FBI", "DGFI"]
+for i in names:
+    print(f"i hate {i}")
+#////Infiniti loop//////////////
+count = 0
+while count < 1:
+    print (f"count is {count}")
+    count = count + 1
+count = 0
+while #True:
+    # print (f"count is {count}")
+    # count = count + 1
+#/////////////////////////////
+#list
+
+my_list = ["apple", 25, age, name, 4.33]
+
+my_list[0]
 
 first_name = "John"
 last_name = "Doe"
@@ -89,3 +166,5 @@ print(len(message))  # 5
 
 empty = ""
 print(len(empty))    # 0
+
+
