@@ -140,15 +140,74 @@ while count < 1:
     print (f"count is {count}")
     count = count + 1
 count = 0
-while #True:
+#while #True:
     # print (f"count is {count}")
     # count = count + 1
 #/////////////////////////////
 #list
-
+age = 10
+name = "PYthon"
 my_list = ["apple", 25, age, name, 4.33]
 
 my_list[0]
+print(my_list[1:])
+
+my_list[0] = "Litchi"
+my_list.append("Mango")
+my_list.insert(3, "banana")
+my_list.remove("Litchi")
+# mas = my_list.pop()
+del my_list[0]
+print(my_list)
+
+fruits = ["apple", "banana", "orange"]
+
+# Get items
+print(fruits[0])    # "apple" (first item)
+print(fruits[1])    # "banana"
+print(fruits[-1])   # "orange" (last item)
+print(fruits[-2])   # "banana" (second to last)
+
+# Slicing
+print(fruits[0:2])  # ["apple", "banana"]
+print(fruits[1:])   # ["banana", "orange"]
+
+numbers = [43, 343, 2, 55, 2, 222, "mango", "apple"]
+print (len(numbers))
+print(numbers.count(2))
+print(numbers.index(55))
+numbers.sort()
+numbers.reverse()
+print(numbers)
+new = numbers.copy()
+print(new)
+
+if "litchi" in fruits:
+    print("found apples")
+
+    # Check if list is empty
+if fruits:
+    print("List has items")
+else:
+    print("List is empty")
+
+if len(fruits) > 2:
+    print(fruits[2])
+
+numbers = [num for num in numbers if num != 2]
+print(numbers)
+
+# Wrong - both variables point to same list
+list1 = [1, 2, 3]
+list2 = list1
+list2.append(4)
+print(list1)  # [1, 2, 3, 4] - changed!
+
+# Right - make a copy
+list1 = [1, 2, 3]
+list2 = list1.copy()
+list2.append(4)
+print(list2)  # [1, 2, 3] - unchanged
 
 first_name = "John"
 last_name = "Doe"
