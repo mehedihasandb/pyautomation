@@ -61,10 +61,10 @@ print(greet)  # Hello, Alice! and i'm 15 years old.
 
 text = "Python is great!"
 demo = " Python "
-price = "$10.99"
+price = "$10.9999989999999"
 print(text.upper())  # PYTHON IS GREAT!
 print(text.lower())  # python is great!
-print(demo.strip())  # Python
+print(price.strip("9"))  # Python
 print(text.replace("great", "awesome"))  # Python is awesome!
 print(price.startswith("$"))  # True
 print(price.endswith("9"))  # True
